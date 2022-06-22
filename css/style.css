@@ -171,7 +171,7 @@ body {
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
-  background: url("svg/form-arrows.svg") right 14px top 18px/10px 15px no-repeat;
+  background: url("../svg/form-arrows.svg") right 14px top 18px/10px 15px no-repeat;
 }
 
 .select-backg:focus {
@@ -211,14 +211,14 @@ body {
   display: inline-block;
   width: 17px;
   height: 17px;
-  background: url("svg/form-empty-circle.svg") center/17px 17px no-repeat;
+  background: url("../svg/form-empty-circle.svg") center/17px 17px no-repeat;
   vertical-align: bottom;
   margin-right: 7px;
 }
 
 .radio-btn:checked + .radio-text::before {
   content: '';
-  background: url("svg/form-circle.svg") center/17px 17px no-repeat;
+  background: url("../svg/form-circle.svg") center/17px 17px no-repeat;
 }
 
 .radio-btn {
@@ -281,7 +281,7 @@ body {
 
 .header {
   background-color: #666666;
-  background: url("img/banner-bg.jpg") 50% top / cover no-repeat;
+  background: url("../img/banner-bg.jpg") 50% top / cover no-repeat;
   overflow: hidden;
   position: relative;
   margin-bottom: 4.42857rem;
@@ -1044,7 +1044,7 @@ body {
   display: inline-block;
   width: 30px;
   height: 30px;
-  background: url("svg/004-twitter.svg") center/25px 25px no-repeat;
+  background: url("../svg/004-twitter.svg") center/25px 25px no-repeat;
 }
 
 .sicial-link_tumbir::before {
@@ -1052,7 +1052,7 @@ body {
   display: inline-block;
   width: 30px;
   height: 30px;
-  background: url("svg/001-pinterest.svg") center/22px 22px no-repeat;
+  background: url("../svg/001-pinterest.svg") center/22px 22px no-repeat;
 }
 
 .sicial-link_pinterest::before {
@@ -1060,7 +1060,7 @@ body {
   display: inline-block;
   width: 30px;
   height: 30px;
-  background: url("svg/003-tumblr.svg") center/22px 22px no-repeat;
+  background: url("../svg/003-tumblr.svg") center/22px 22px no-repeat;
 }
 
 .sicial-link_facebook::before {
@@ -1068,7 +1068,7 @@ body {
   display: inline-block;
   width: 30px;
   height: 30px;
-  background: url("svg/002-facebook-logo.svg") center/22px 22px no-repeat;
+  background: url("../svg/002-facebook-logo.svg") center/22px 22px no-repeat;
 }
 
 .sicial-link_instagram::before {
@@ -1076,7 +1076,7 @@ body {
   display: inline-block;
   width: 30px;
   height: 30px;
-  background: url("svg/005-instagram.svg") center/22px 22px no-repeat;
+  background: url("../svg/005-instagram.svg") center/22px 22px no-repeat;
 }
 
 @media (max-width: 1200px) {
@@ -1203,11 +1203,11 @@ body {
     content: '';
     width: 25px;
     height: 25px;
-    background: url("svg/form-empty-circle.svg") center/25px 25px no-repeat;
+    background: url("../svg/form-empty-circle.svg") center/25px 25px no-repeat;
   }
   .radio-btn:checked + .radio-text::before {
     content: '';
-    background: url("svg/form-circle.svg") center/25px 25px no-repeat;
+    background: url("../svg/form-circle.svg") center/25px 25px no-repeat;
   }
   .popup-img {
     top: -36px;
@@ -1226,7 +1226,7 @@ body {
   }
   .header {
     padding: 15px 20px 0px 20px;
-    background: url("img/banner-bg-tablet.jpg") 50% / cover no-repeat;
+    background: url("../img/banner-bg-tablet.jpg") 50% / cover no-repeat;
   }
   .columns {
     -webkit-box-orient: vertical;
@@ -1319,7 +1319,7 @@ body {
   .header {
     text-align: center;
     padding: 0;
-    background: url("img/banner-mobile.jpg") 50%/cover no-repeat;
+    background: url("../img/banner-mobile.jpg") 50% / cover no-repeat;
   }
   .menu-title {
     font-size: 1.78571rem;
