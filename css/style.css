@@ -291,7 +291,7 @@ body {
 
 .header {
   background-color: #666666;
-  background: url("img/banner-bg.jpg") 50% top/cover no-repeat;
+  background: url("../img/banner-bg.jpg") 50% top/cover no-repeat;
   overflow: hidden;
   position: relative;
   padding: 28px 0px 9.42857rem 0px;
