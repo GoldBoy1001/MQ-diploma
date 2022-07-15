@@ -291,7 +291,7 @@ body {
 
 .header {
   background-color: #666666;
-  background: url("../img/banner-bg.jpg") 50% top/cover no-repeat;
+  background: url("img/banner-bg.jpg") 50% top/cover no-repeat;
   overflow: hidden;
   position: relative;
   padding: 28px 0px 9.42857rem 0px;
@@ -1146,7 +1146,7 @@ body {
     right: 0;
     width: 25px;
     height: 25px;
-    background: url("/svg/form-x.svg") center/25px 25px no-repeat;
+    background: url("svg/form-x.svg") center/25px 25px no-repeat;
   }
   .popup-post {
     font-size: 1.28571rem;
@@ -1164,11 +1164,11 @@ body {
     content: '';
     width: 25px;
     height: 25px;
-    background: url("/svg/form-empty-circle.svg") center/25px 25px no-repeat;
+    background: url("svg/form-empty-circle.svg") center/25px 25px no-repeat;
   }
   .radio-btn:checked + .radio-text::before {
     content: '';
-    background: url("/svg/form-circle.svg") center/25px 25px no-repeat;
+    background: url("svg/form-circle.svg") center/25px 25px no-repeat;
   }
 }
 
@@ -1179,7 +1179,7 @@ body {
   }
   .header {
     padding: 28px 20px 7.92857rem 20px;
-    background: url("/img/banner-bg-tablet.jpg") 50%/cover no-repeat;
+    background: url("img/banner-bg-tablet.jpg") 50%/cover no-repeat;
     margin-bottom: 3.28571rem;
   }
   .img {
@@ -1264,7 +1264,7 @@ body {
 
 @media (max-width: 640px) {
   .header {
-    background: url("/img/banner-mobile.jpg") 50%/cover no-repeat;
+    background: url("img/banner-mobile.jpg") 50%/cover no-repeat;
     padding-bottom: 15.21429rem;
     margin-bottom: 2.85714rem;
   }
