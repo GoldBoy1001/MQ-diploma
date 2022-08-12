@@ -226,6 +226,7 @@ body {
   width: 100%;
   min-height: 9.42857rem;
   max-height: 10.71429rem;
+  padding: 21px 0px 0px 21px;
   resize: none;
 }
 
@@ -235,22 +236,18 @@ body {
 
 .area-text::-webkit-input-placeholder {
   font-size: 0.92857rem;
-  padding: 21px 0px 0px 21px;
 }
 
 .area-text:-ms-input-placeholder {
   font-size: 0.92857rem;
-  padding: 21px 0px 0px 21px;
 }
 
 .area-text::-ms-input-placeholder {
   font-size: 0.92857rem;
-  padding: 21px 0px 0px 21px;
 }
 
 .area-text::placeholder {
   font-size: 0.92857rem;
-  padding: 21px 0px 0px 21px;
 }
 
 .area-title {
@@ -360,11 +357,11 @@ body {
   position: relative;
   z-index: 95;
   max-width: 50.35714rem;
-  letter-spacing: 1.7;
   margin: 0 auto;
   text-align: center;
   font-size: 3rem;
   line-height: 1.7;
+  letter-spacing: 1.7px;
   text-transform: uppercase;
   color: #ffffff;
 }
@@ -628,6 +625,10 @@ body {
   color: #b59f5b;
 }
 
+.search {
+  margin-bottom: 53px;
+}
+
 .form-search {
   position: relative;
 }
@@ -641,7 +642,6 @@ body {
   font-size: 0.92857rem;
   padding: 15px 65px 15px 15px;
   position: relative;
-  margin-bottom: 53px;
   display: inline-block;
   background-color: #f4f7f6;
 }
@@ -820,10 +820,16 @@ body {
 .products-column {
   margin: 0px 70px 0px 0px;
   padding: 0px;
+  overflow: hidden;
+  border-bottom: 3px solid #b59f5b;
 }
 
 .products-column:last-child {
   margin-right: 0;
+}
+
+.products-body {
+  height: 100%;
 }
 
 .products-image {
@@ -831,12 +837,12 @@ body {
 }
 
 .products-border {
+  min-height: 100%;
   position: relative;
   z-index: 10;
   margin-top: -30px;
   border: 3px solid #b59f5b;
-  padding: 49px 20px 25px 18px;
-  min-height: 18.92857rem;
+  padding: 49px 20px 22px 18px;
 }
 
 .products-titles {
@@ -922,7 +928,11 @@ body {
 }
 
 .sicial-item {
-  margin: 0px 9px;
+  margin-right: 18px;
+}
+
+.sicial-item:last-child {
+  margin-right: 0;
 }
 
 .sicial-link .txt {
@@ -1115,6 +1125,8 @@ body {
     margin-bottom: 0;
   }
   .menu-title {
+    max-width: 46.42857rem;
+    letter-spacing: -0.1px;
     font-size: 40px;
     line-height: 1.4;
   }
@@ -1148,7 +1160,7 @@ body {
     margin-right: 10px;
   }
   .products {
-    margin-bottom: 2.07143rem;
+    margin-bottom: 3.78571rem;
   }
   .sosial-row {
     margin: 0px 20px 18px 20px;
@@ -1190,7 +1202,7 @@ body {
   }
   .menu-title {
     font-size: 1.78571rem;
-    letter-spacing: 0.5;
+    letter-spacing: 0.5px;
     line-height: 1.4;
   }
   .header-menu {
@@ -1273,9 +1285,6 @@ body {
     font-size: 16px;
     margin-bottom: 30px;
   }
-  .input-search {
-    margin-bottom: 38px;
-  }
   .products-post,
   .themes-post,
   .teg-post,
@@ -1284,6 +1293,9 @@ body {
   }
   .products-post {
     margin-bottom: 2rem;
+  }
+  .search {
+    margin-bottom: 38px;
   }
   .email {
     margin-bottom: 39px;
